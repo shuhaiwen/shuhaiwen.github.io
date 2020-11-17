@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>类 | 小锋哥的博客</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/github.svg">
+    <meta name="description" content="小锋哥的博客">
+    <link rel="preload" href="/assets/css/0.styles.1a30b371.css" as="style"><link rel="preload" href="/assets/js/app.a6190710.js" as="script"><link rel="preload" href="/assets/js/3.81990b42.js" as="script"><link rel="preload" href="/assets/js/1.4cfcde8c.js" as="script"><link rel="preload" href="/assets/js/51.85a38b5f.js" as="script"><link rel="preload" href="/assets/js/9.65de6e13.js" as="script"><link rel="prefetch" href="/assets/js/10.e69ae0eb.js"><link rel="prefetch" href="/assets/js/11.723f991a.js"><link rel="prefetch" href="/assets/js/12.cb13505d.js"><link rel="prefetch" href="/assets/js/13.2b2db045.js"><link rel="prefetch" href="/assets/js/14.ba3134e7.js"><link rel="prefetch" href="/assets/js/15.917a9d00.js"><link rel="prefetch" href="/assets/js/16.668efd6e.js"><link rel="prefetch" href="/assets/js/17.0af18f1d.js"><link rel="prefetch" href="/assets/js/18.0382ccd9.js"><link rel="prefetch" href="/assets/js/19.a48fe266.js"><link rel="prefetch" href="/assets/js/20.c0cdfa30.js"><link rel="prefetch" href="/assets/js/21.71673c47.js"><link rel="prefetch" href="/assets/js/22.d7189f57.js"><link rel="prefetch" href="/assets/js/23.9dbaf20f.js"><link rel="prefetch" href="/assets/js/24.9d9c263c.js"><link rel="prefetch" href="/assets/js/25.1dcebda8.js"><link rel="prefetch" href="/assets/js/26.9736e0df.js"><link rel="prefetch" href="/assets/js/27.64111d61.js"><link rel="prefetch" href="/assets/js/28.aecbd8eb.js"><link rel="prefetch" href="/assets/js/29.4f3c733d.js"><link rel="prefetch" href="/assets/js/30.bb51e6f5.js"><link rel="prefetch" href="/assets/js/31.c47ce2bd.js"><link rel="prefetch" href="/assets/js/32.0dd07800.js"><link rel="prefetch" href="/assets/js/33.472ca8c5.js"><link rel="prefetch" href="/assets/js/34.265d75e7.js"><link rel="prefetch" href="/assets/js/35.c68c6714.js"><link rel="prefetch" href="/assets/js/36.e8fbaf56.js"><link rel="prefetch" href="/assets/js/37.b5a50ed2.js"><link rel="prefetch" href="/assets/js/38.cd062ee5.js"><link rel="prefetch" href="/assets/js/39.f818e3f2.js"><link rel="prefetch" href="/assets/js/4.e25113ea.js"><link rel="prefetch" href="/assets/js/40.42dcc0b5.js"><link rel="prefetch" href="/assets/js/41.9a392c7a.js"><link rel="prefetch" href="/assets/js/42.69e37c78.js"><link rel="prefetch" href="/assets/js/43.b7cae464.js"><link rel="prefetch" href="/assets/js/44.3517aa5a.js"><link rel="prefetch" href="/assets/js/45.1c10f673.js"><link rel="prefetch" href="/assets/js/46.945f6398.js"><link rel="prefetch" href="/assets/js/47.2fe5c305.js"><link rel="prefetch" href="/assets/js/48.4580876a.js"><link rel="prefetch" href="/assets/js/49.fb293bb6.js"><link rel="prefetch" href="/assets/js/5.8eb8291d.js"><link rel="prefetch" href="/assets/js/50.e6b84b69.js"><link rel="prefetch" href="/assets/js/52.b24a11e6.js"><link rel="prefetch" href="/assets/js/53.d8ada69d.js"><link rel="prefetch" href="/assets/js/54.cd7b653e.js"><link rel="prefetch" href="/assets/js/55.a90faaf8.js"><link rel="prefetch" href="/assets/js/56.78a0946c.js"><link rel="prefetch" href="/assets/js/57.1d4ac104.js"><link rel="prefetch" href="/assets/js/58.86328578.js"><link rel="prefetch" href="/assets/js/59.ffca602f.js"><link rel="prefetch" href="/assets/js/6.e458e168.js"><link rel="prefetch" href="/assets/js/60.4140b9e1.js"><link rel="prefetch" href="/assets/js/61.d2ab6395.js"><link rel="prefetch" href="/assets/js/62.c48c2b91.js"><link rel="prefetch" href="/assets/js/63.8bbc25f6.js"><link rel="prefetch" href="/assets/js/64.bfdde942.js"><link rel="prefetch" href="/assets/js/65.a042ba67.js"><link rel="prefetch" href="/assets/js/66.14883d47.js"><link rel="prefetch" href="/assets/js/67.7fd043c5.js"><link rel="prefetch" href="/assets/js/68.6f79b759.js"><link rel="prefetch" href="/assets/js/69.491367f6.js"><link rel="prefetch" href="/assets/js/7.608d4e00.js"><link rel="prefetch" href="/assets/js/70.556724cd.js"><link rel="prefetch" href="/assets/js/71.5b05a6be.js"><link rel="prefetch" href="/assets/js/72.1bc9f3dd.js"><link rel="prefetch" href="/assets/js/73.01ea5462.js"><link rel="prefetch" href="/assets/js/74.0b904e57.js"><link rel="prefetch" href="/assets/js/75.0c2be005.js"><link rel="prefetch" href="/assets/js/76.ba26f46e.js"><link rel="prefetch" href="/assets/js/77.ead1a47c.js"><link rel="prefetch" href="/assets/js/78.15ae9710.js"><link rel="prefetch" href="/assets/js/79.80bf5da4.js"><link rel="prefetch" href="/assets/js/8.93ef3286.js"><link rel="prefetch" href="/assets/js/80.c13e904e.js"><link rel="prefetch" href="/assets/js/81.e861798b.js"><link rel="prefetch" href="/assets/js/82.c0600836.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1a30b371.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-19557b78><div data-v-19557b78><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-19557b78 data-v-19557b78><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-19557b78 data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>小锋哥的博客</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>shuhaiwen</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-19557b78><header class="navbar" data-v-19557b78><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/github.svg" alt="小锋哥的博客" class="logo"> <span class="site-name">小锋哥的博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/C++11/" class="nav-link"><i class="iconfont undefined"></i>
+  C++11
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++17/" class="nav-link"><i class="iconfont undefined"></i>
+  C++17
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++20/" class="nav-link"><i class="iconfont undefined"></i>
+  C++20
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++/" class="nav-link"><i class="iconfont undefined"></i>
+  C++
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++系统级工具函数/" class="nav-link"><i class="iconfont undefined"></i>
+  C++系统级工具函数
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Solution/" class="nav-link"><i class="iconfont undefined"></i>
+  Solution
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端/" class="nav-link"><i class="iconfont undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/版本控制/" class="nav-link"><i class="iconfont undefined"></i>
+  版本控制
+</a></li><li class="dropdown-item"><!----> <a href="/categories/CMake/" class="nav-link"><i class="iconfont undefined"></i>
+  CMake
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/TypeScript/" class="nav-link"><i class="iconfont undefined"></i>
+  TypeScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Cmd/" class="nav-link"><i class="iconfont undefined"></i>
+  Cmd
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Kit/" class="nav-link"><i class="iconfont undefined"></i>
+  Kit
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="iconfont undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nosql/" class="nav-link"><i class="iconfont undefined"></i>
+  Nosql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Sql/" class="nav-link"><i class="iconfont undefined"></i>
+  Sql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/编辑器/" class="nav-link"><i class="iconfont undefined"></i>
+  编辑器
+</a></li><li class="dropdown-item"><!----> <a href="/categories/通用/" class="nav-link"><i class="iconfont undefined"></i>
+  通用
+</a></li><li class="dropdown-item"><!----> <a href="/categories/WebSite/" class="nav-link"><i class="iconfont undefined"></i>
+  WebSite
+</a></li><li class="dropdown-item"><!----> <a href="/categories/javaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  javaScript
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pages/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  教程
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><a href="https://github.com/shuhaiwen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-19557b78></div> <aside class="sidebar" data-v-19557b78><div class="personal-info-wrapper" data-v-b038cec6><img src="/github.svg" alt="author-avatar" class="personal-img" data-v-b038cec6> <h3 class="name" data-v-b038cec6>
+    shuhaiwen
+  </h3> <div class="num" data-v-b038cec6><div data-v-b038cec6><h3 data-v-b038cec6>67</h3> <h6 data-v-b038cec6>Article</h6></div> <div data-v-b038cec6><h3 data-v-b038cec6>71</h3> <h6 data-v-b038cec6>Tag</h6></div></div> <hr data-v-b038cec6></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/C++11/" class="nav-link"><i class="iconfont undefined"></i>
+  C++11
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++17/" class="nav-link"><i class="iconfont undefined"></i>
+  C++17
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++20/" class="nav-link"><i class="iconfont undefined"></i>
+  C++20
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++/" class="nav-link"><i class="iconfont undefined"></i>
+  C++
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++系统级工具函数/" class="nav-link"><i class="iconfont undefined"></i>
+  C++系统级工具函数
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Solution/" class="nav-link"><i class="iconfont undefined"></i>
+  Solution
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端/" class="nav-link"><i class="iconfont undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/版本控制/" class="nav-link"><i class="iconfont undefined"></i>
+  版本控制
+</a></li><li class="dropdown-item"><!----> <a href="/categories/CMake/" class="nav-link"><i class="iconfont undefined"></i>
+  CMake
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/TypeScript/" class="nav-link"><i class="iconfont undefined"></i>
+  TypeScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Cmd/" class="nav-link"><i class="iconfont undefined"></i>
+  Cmd
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Kit/" class="nav-link"><i class="iconfont undefined"></i>
+  Kit
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="iconfont undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nosql/" class="nav-link"><i class="iconfont undefined"></i>
+  Nosql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Sql/" class="nav-link"><i class="iconfont undefined"></i>
+  Sql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/编辑器/" class="nav-link"><i class="iconfont undefined"></i>
+  编辑器
+</a></li><li class="dropdown-item"><!----> <a href="/categories/通用/" class="nav-link"><i class="iconfont undefined"></i>
+  通用
+</a></li><li class="dropdown-item"><!----> <a href="/categories/WebSite/" class="nav-link"><i class="iconfont undefined"></i>
+  WebSite
+</a></li><li class="dropdown-item"><!----> <a href="/categories/javaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  javaScript
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pages/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  教程
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><a href="https://github.com/shuhaiwen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>C++</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/C++/boost.html" class="sidebar-link">boost</a></li><li><a href="/pages/C++/c++ 异常.html" class="sidebar-link">C++异常</a></li><li><a href="/pages/C++/c++ 引用和指针运用多态特性.html" class="sidebar-link">C++引用和指针运用多态特性</a></li><li><a href="/pages/C++/c++ 指针.html" class="sidebar-link">C++指针</a></li><li><a href="/pages/C++/c++动态库和静态库.html" class="sidebar-link">C++动态库和静态库</a></li><li><a href="/pages/C++/c++的奇怪知识点.html" class="sidebar-link">C++的奇怪知识点</a></li><li><a href="/pages/C++/C++调java填坑.html" class="sidebar-link">C++调java填坑</a></li><li><a href="/pages/C++/c++随机数.html" class="sidebar-link">随机数</a></li><li><a href="/pages/C++/const和指针的关系.html" class="sidebar-link">const和指针的关系</a></li><li><a href="/pages/C++/visual studio错误集.html" class="sidebar-link">visual studio错误集</a></li><li><a href="/pages/C++/void.html" class="sidebar-link">void</a></li><li><a href="/pages/C++/vs项目文件层级配置.html" class="sidebar-link">vs项目文件层级配置</a></li><li><a href="/pages/C++/别名归类.html" class="sidebar-link">别名归类</a></li><li><a href="/pages/C++/宏.html" class="sidebar-link">宏</a></li><li><a href="/pages/C++/实用处理技巧.html" class="sidebar-link">实用处理技巧</a></li><li><a href="/pages/C++/模板.html" class="sidebar-link">模板</a></li><li><a href="/pages/C++/移动语义.html" class="sidebar-link">移动语义</a></li><li><a href="/pages/C++/类.html" class="active sidebar-link">类</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/C++/类.html#类设计陷阱" class="sidebar-link">类设计陷阱</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/C++/类.html#_1-类成员是一个基类指针，深拷贝避免丢失子类数据" class="sidebar-link">1.类成员是一个基类指针，深拷贝避免丢失子类数据</a></li><li class="sidebar-sub-header"><a href="/pages/C++/类.html#_2-类成员指针变量设计成私有，避免疏忽导致的内存泄漏" class="sidebar-link">2.类成员指针变量设计成私有，避免疏忽导致的内存泄漏</a></li></ul></li><li class="sidebar-sub-header"><a href="/pages/C++/类.html#类中成员变量为类自身" class="sidebar-link">类中成员变量为类自身</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/C++/类.html#_1-指针，智能指针可以，对象不可以" class="sidebar-link">1.指针，智能指针可以，对象不可以</a></li><li class="sidebar-sub-header"><a href="/pages/C++/类.html#_2-指针和智能指针怎么赋值？" class="sidebar-link">2.指针和智能指针怎么赋值？</a></li></ul></li><li class="sidebar-sub-header"><a href="/pages/C++/类.html#总结：指针成员不能在类实例化阶段直接或间接进行操作" class="sidebar-link">总结：指针成员不能在类实例化阶段直接或间接进行操作</a></li><li class="sidebar-sub-header"><a href="/pages/C++/类.html#类设计常识" class="sidebar-link">类设计常识</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/C++/类.html#_1-声明了任何非默认构造函数，编译器不会提供默认构造函数" class="sidebar-link">1.声明了任何非默认构造函数，编译器不会提供默认构造函数</a></li></ul></li></ul></li><li><a href="/pages/C++/编译器生成的符号.html" class="sidebar-link">编译器生成的符号</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>cmake</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Git</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Markdown</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>XML</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>前端</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>包管理</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>系统</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>编辑器</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>通用</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>类</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>shuhaiwen</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-19557b78><main class="page"><div class="page-title" style="display:none;"><h1>类</h1> <hr> <div data-v-484a899e><i class="iconfont reco-account" data-v-484a899e><span data-v-484a899e>shuhaiwen</span></i> <i class="iconfont reco-date" data-v-484a899e><span data-v-484a899e>2020-08-19</span></i> <!----> <i class="iconfont reco-tag tags" data-v-484a899e><span class="tag-item" data-v-484a899e>
+      Class
+    </span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><ul><li><a href="#%E7%B1%BB">类</a> <ul><li><a href="#%E7%B1%BB%E8%AE%BE%E8%AE%A1%E9%99%B7%E9%98%B1">类设计陷阱</a> <ul><li><a href="#1%E7%B1%BB%E6%88%90%E5%91%98%E6%98%AF%E4%B8%80%E4%B8%AA%E5%9F%BA%E7%B1%BB%E6%8C%87%E9%92%88%E6%B7%B1%E6%8B%B7%E8%B4%9D%E9%81%BF%E5%85%8D%E4%B8%A2%E5%A4%B1%E5%AD%90%E7%B1%BB%E6%95%B0%E6%8D%AE">1.类成员是一个基类指针，深拷贝避免丢失子类数据</a></li> <li><a href="#2%E7%B1%BB%E6%88%90%E5%91%98%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F%E8%AE%BE%E8%AE%A1%E6%88%90%E7%A7%81%E6%9C%89%E9%81%BF%E5%85%8D%E7%96%8F%E5%BF%BD%E5%AF%BC%E8%87%B4%E7%9A%84%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F">2.类成员指针变量设计成私有，避免疏忽导致的内存泄漏</a></li></ul></li> <li><a href="#%E7%B1%BB%E4%B8%AD%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E4%B8%BA%E7%B1%BB%E8%87%AA%E8%BA%AB">类中成员变量为类自身</a> <ul><li><a href="#1%E6%8C%87%E9%92%88%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88%E5%8F%AF%E4%BB%A5%E5%AF%B9%E8%B1%A1%E4%B8%8D%E5%8F%AF%E4%BB%A5">1.指针，智能指针可以，对象不可以</a></li> <li><a href="#2%E6%8C%87%E9%92%88%E5%92%8C%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88%E6%80%8E%E4%B9%88%E8%B5%8B%E5%80%BC">2.指针和智能指针怎么赋值？</a></li></ul></li> <li><a href="#%E6%80%BB%E7%BB%93%E6%8C%87%E9%92%88%E6%88%90%E5%91%98%E4%B8%8D%E8%83%BD%E5%9C%A8%E7%B1%BB%E5%AE%9E%E4%BE%8B%E5%8C%96%E9%98%B6%E6%AE%B5%E7%9B%B4%E6%8E%A5%E6%88%96%E9%97%B4%E6%8E%A5%E8%BF%9B%E8%A1%8C%E6%93%8D%E4%BD%9C"><em>总结：指针成员不能在类实例化阶段直接或间接进行操作</em></a></li> <li><a href="#%E7%B1%BB%E8%AE%BE%E8%AE%A1%E5%B8%B8%E8%AF%86">类设计常识</a> <ul><li><a href="#1%E5%A3%B0%E6%98%8E%E4%BA%86%E4%BB%BB%E4%BD%95%E9%9D%9E%E9%BB%98%E8%AE%A4%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8D%E4%BC%9A%E6%8F%90%E4%BE%9B%E9%BB%98%E8%AE%A4%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0">1.声明了任何非默认构造函数，编译器不会提供默认构造函数</a></li></ul></li></ul></li></ul> <h1 id="类"><a href="#类" class="header-anchor">#</a> 类</h1> <h2 id="类设计陷阱"><a href="#类设计陷阱" class="header-anchor">#</a> 类设计陷阱</h2> <h3 id="_1-类成员是一个基类指针，深拷贝避免丢失子类数据"><a href="#_1-类成员是一个基类指针，深拷贝避免丢失子类数据" class="header-anchor">#</a> 1.类成员是一个基类指针，深拷贝避免丢失子类数据</h3> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>class A
+{
+public:
+    virtual ~A(){}
+public:
+    string str_A;
+};
+class B :public A
+{
+public:
+    string str_B;
+};
+class C
+{
+public:
+    C() :m_a(nullptr) 
+    {
+
+    }
+    C(const C&amp; in)
+    {
+        if (in.m_a != nullptr)
+        {
+            m_a = new A();
+            *m_a = *in.m_a;
+        }
+        else
+           m_a = nullptr; 
+        
+    }
+    C&amp; operator=(const C&amp; in)
+    {
+        if (&amp;in == this)
+            return *this;
+        if (m_a != nullptr)
+            delete m_a;
+        if (in.m_a != nullptr)
+        {
+            m_a = new A();
+            *m_a = *in.m_a;
+        }
+        else
+            m_a = nullptr; 
+        return *this;
+    }
+public:
+    A* m_a;
+};
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br></div></div><ul><li>问题分析：上面例子中看似很完美，对C中的指针m_a进行了深拷贝，然而m_a失去了对子类的数据拷贝。当m_a是B指针赋给A指针时，这时拷贝构造和赋值运算符中 <code>*m_a = *in.m_a;</code>只会去调A的赋值运算符，而不会去调B的，这样，m_a中B数据就丢失了。</li> <li>解决方法：通过static_cast或dynamic_cast判断具体子类类型,在对子类赋值（调用子类的赋值运算符）。</li></ul> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>class C
+{
+public:
+    C() :m_a(nullptr) 
+    {
+
+    }
+    C(const C&amp; in)
+    {
+        if (in.m_a != nullptr)
+        {
+            if (dynamic_cast&lt;B*&gt;(in.m_a))
+            {
+                B* pb = new B(*dynamic_cast&lt;B*&gt;(in.m_a));
+                m_a = pb;
+            }
+            else
+            {
+                m_a = new A;
+                *m_a = *in.m_a;
+            }
+            /*  m_a = new A();
+              *m_a = *in.m_a;*/
+        }
+        else
+            m_a = nullptr;
+       
+    }
+    C&amp; operator=(const C&amp; in)
+    {
+        if (&amp;in == this)
+            return *this;
+        if (m_a != nullptr)
+            delete m_a;
+        if (in.m_a != nullptr)
+        {
+            if (dynamic_cast&lt;B*&gt;(in.m_a))
+            {
+                B* pb = new B(*dynamic_cast&lt;B*&gt;(in.m_a));
+                m_a = pb;
+            }
+            else
+            {
+                m_a = new A;
+                *m_a = *in.m_a;
+            }
+            /* m_a = new A();
+             *m_a = *in.m_a;*/
+        }
+        else
+            m_a = nullptr;
+        
+        return *this;
+    }
+    ~C()
+    {
+        if (m_a != nullptr)
+        {
+            delete m_a;
+            m_a = nullptr;
+        }
+    }
+public:
+    A* m_a;
+};
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br></div></div><h3 id="_2-类成员指针变量设计成私有，避免疏忽导致的内存泄漏"><a href="#_2-类成员指针变量设计成私有，避免疏忽导致的内存泄漏" class="header-anchor">#</a> 2.类成员指针变量设计成私有，避免疏忽导致的内存泄漏</h3> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>class A
+{
+
+};
+class B
+{
+public:
+    B() :m_a(nullptr) {}
+    ~B() 
+    {
+        if (m_a != nullptr)
+        {
+            delete m_a;
+            m_a = nullptr;
+        }
+    }
+public:
+    A* m_a;
+};
+int main()
+{
+    B b;
+    {
+        A* a1 = new A;
+        b.m_a = a1;
+    }
+    {
+        A* a2 = new A;
+        b.m_a = a2;
+    }
+  
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br></div></div><ul><li>问题分析：上面B类定义看似完美，B生命周期结束自动删除m_a内存,但不正当的给m_a赋值导致了意外的内存泄漏。main函数中a1首先赋给了b.m_a,意图将a1的控制权交给b，确实b接管了a1，当b生命周期结束也可以通过析构删除a1指针,当a2又赋给b.m_a时，m_a痛快的结束了a2，从而放弃了a1的控制权,使a1内存泄漏。</li> <li>解决方法：将成员指针设为私有，访问通过成员函数。</li></ul> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>class A
+{
+
+};
+class B
+{
+public:
+    B() :m_a(nullptr) {}
+    ~B()
+    {
+        if (m_a != nullptr)
+        {
+            delete m_a;
+            m_a = nullptr;
+        }
+    }
+    void setValue(A* a)
+    {
+        if (m_a != nullptr)
+        {
+            delete m_a;
+            m_a = nullptr;
+        }
+        m_a = a;
+    }
+    A* getValue()
+    {
+        return m_a;
+    }
+private:
+    A* m_a;
+};
+int main()
+{
+    B b;
+    {
+        A* a1 = new A;
+        b.setValue(a1);
+    }
+    {
+        A* a2 = new A;
+        b.setValue(a2);
+    }
+   
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br></div></div><hr> <h2 id="类中成员变量为类自身"><a href="#类中成员变量为类自身" class="header-anchor">#</a> 类中成员变量为类自身</h2> <p><em>类中成员变量为类自身时怎么写？</em></p> <h3 id="_1-指针，智能指针可以，对象不可以"><a href="#_1-指针，智能指针可以，对象不可以" class="header-anchor">#</a> 1.指针，智能指针可以，对象不可以</h3> <p><strong>先看以下代码，一般成员声明情况</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>class A
+{
+public:
+	A();
+	~A();
+	A* m_pa; //正常
+	A m_a;   //error:uses 'B', which is being define   
+	shared_ptr&lt;A&gt; m_spa; //正常
+}；
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p><strong>解释：</strong></p> <ol><li>A m_a;不能通过编译，由错误信息可知，m_a实例化时类A正在定义中（即还没有定义），编译器无法知道类A占多少空间，因此不能编译通过。</li> <li>A* m_pa；和 shared_ptr&lt;A&gt; m_spa; 能正常通过编译，因为m_pa是指针存的是地址，只占4字节大小，可以明确确定。</li></ol> <h3 id="_2-指针和智能指针怎么赋值？"><a href="#_2-指针和智能指针怎么赋值？" class="header-anchor">#</a> 2.指针和智能指针怎么赋值？</h3> <ol><li>不能在对象未生成时执行对象的赋值操作</li></ol> <div class="language- line-numbers-mode"><pre class="language-text"><code>class A
+{
+public:
+	A(){m_pa = new A;}
+	A(int){}
+	A(char) { init(); }
+	~A();
+	A* m_pa;
+	shared_ptr&lt;A&gt; m_spa;
+	void init() {
+		m_pa = new A;
+		m_spa.reset(m_pa);
+	}
+};
+
+A a1; //error调用A();
+A a2(2);//正常;
+A a2('a');//error调用A(char);
+a2.init();//正常
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><p><strong>解释</strong></p> <ol><li>A a1；会报错是因为A调用构造A()时，执行了语句m_pa = new A;而此时A的大小未知new多少内存无法确定，故报错；</li> <li>A a2(2); 正常执行，因为他执行了构造A(int){}，未对m_pa操作；</li> <li>A a2('a');会报错是因为构造A(char)间接调用对m_pa的赋值操作，理由与1一样；</li> <li>a2.init();正常执行是因为此时A的大小已知，可以执行赋值操作</li> <li>智能指针遵循指针一样的原则</li></ol> <h2 id="总结：指针成员不能在类实例化阶段直接或间接进行操作"><a href="#总结：指针成员不能在类实例化阶段直接或间接进行操作" class="header-anchor">#</a> <em>总结：指针成员不能在类实例化阶段直接或间接进行操作</em></h2> <h2 id="类设计常识"><a href="#类设计常识" class="header-anchor">#</a> 类设计常识</h2> <h3 id="_1-声明了任何非默认构造函数，编译器不会提供默认构造函数"><a href="#_1-声明了任何非默认构造函数，编译器不会提供默认构造函数" class="header-anchor">#</a> 1.声明了任何非默认构造函数，编译器不会提供默认构造函数</h3> <ul><li>分析：以下代码中自定义了Box的构造，将会使默认构造函数<code>Box(){}</code>失效,因此代码<code>Box box3</code>将显式失败。</li></ul> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>class Box {
+public:
+    Box(int width, int length, int height)
+        : m_width(width), m_length(length), m_height(height){}
+private:
+    int m_width;
+    int m_length;
+    int m_height;
+
+};
+
+int main(){
+
+    Box box1(1, 2, 3);
+    Box box2{ 2, 3, 4 };
+    Box box3; // C2512: no appropriate default constructor available
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">11/17/2020, 2:58:22 PM</span></div></footer> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-44bd5a18 data-v-44bd5a18><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-44bd5a18><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-44bd5a18></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-44bd5a18></path></svg></div><div class="kanbanniang" data-v-02b09ab5><div class="banniang-container" style="display:;" data-v-02b09ab5><div class="messageBox" style="position:fixed;right:110px;bottom:370px;display:none;" data-v-02b09ab5>
+      欢迎来到 小锋哥的博客
+    </div> <div class="operation" style="bottom:60px;right:80px;display:;" data-v-02b09ab5><i class="kbnfont kbn-ban-home ban-home" data-v-02b09ab5></i> <i class="kbnfont kbn-ban-message message" data-v-02b09ab5></i> <i class="kbnfont kbn-ban-close close" data-v-02b09ab5></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-02b09ab5><i class="kbnfont kbn-ban-info info" data-v-02b09ab5></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:;" data-v-02b09ab5></i></div> <canvas id="banniang" width="200" height="470" class="live2d" style="position:fixed;right:110px;bottom:50px;opacity:0.9;" data-v-02b09ab5></canvas></div> <div class="showBanNiang" style="display:none;" data-v-02b09ab5>
+    看板娘
+  </div></div><div class="reco-bgm-panel" data-v-1b3639fe><audio id="bgm" src="1.flac" data-v-1b3639fe></audio> <div class="reco-float-box" style="bottom:200px;z-index:999999;display:none;" data-v-1b3639fe data-v-2f8b2020 data-v-1b3639fe><img src="/1.jpg" data-v-1b3639fe></div> <div class="reco-bgm-box" style="left:10px;bottom:10px;z-index:999999;" data-v-1b3639fe data-v-2f8b2020 data-v-1b3639fe><div class="reco-bgm-cover" style="background-image:url(/1.jpg);" data-v-1b3639fe><div class="mini-operation" style="display:none;" data-v-1b3639fe><i class="reco-bgm reco-bgm-pause" style="display:none;" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-play" style="display:none;" data-v-1b3639fe></i></div> <div class="falut-message" style="display:none;" data-v-1b3639fe>
+          播放失败
+        </div></div> <div class="reco-bgm-info" data-v-1b3639fe data-v-2f8b2020 data-v-1b3639fe><div class="info-box" data-v-1b3639fe><i class="reco-bgm reco-bgm-music music" data-v-1b3639fe></i>281公里</div> <div class="info-box" data-v-1b3639fe><i class="reco-bgm reco-bgm-artist" data-v-1b3639fe></i>谢霆锋</div> <div class="reco-bgm-progress" data-v-1b3639fe><div class="progress-bar" data-v-1b3639fe><div class="bar" data-v-1b3639fe></div></div></div> <div class="reco-bgm-operation" data-v-1b3639fe><i class="reco-bgm reco-bgm-last last" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-pause pause" style="display:none;" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-play play" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-next next" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-volume1 volume" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-mute mute" style="display:none;" data-v-1b3639fe></i> <div class="volume-bar" data-v-1b3639fe><div class="bar" data-v-1b3639fe></div></div></div></div> <div class="reco-bgm-left-box" data-v-1b3639fe data-v-2f8b2020 data-v-1b3639fe><i class="reco-bgm reco-bgm-left" data-v-1b3639fe></i></div></div></div><!----></div></div>
+    <script src="/assets/js/app.a6190710.js" defer></script><script src="/assets/js/3.81990b42.js" defer></script><script src="/assets/js/1.4cfcde8c.js" defer></script><script src="/assets/js/51.85a38b5f.js" defer></script><script src="/assets/js/9.65de6e13.js" defer></script>
+  </body>
+</html>
