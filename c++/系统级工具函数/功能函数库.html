@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>功能函数库 | 小锋哥的博客</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/github.svg">
+    <meta name="description" content="小锋哥的博客">
+    <link rel="preload" href="/assets/css/0.styles.1a30b371.css" as="style"><link rel="preload" href="/assets/js/app.c15515da.js" as="script"><link rel="preload" href="/assets/js/3.81990b42.js" as="script"><link rel="preload" href="/assets/js/1.4cfcde8c.js" as="script"><link rel="preload" href="/assets/js/39.79f4234f.js" as="script"><link rel="preload" href="/assets/js/9.65de6e13.js" as="script"><link rel="prefetch" href="/assets/js/10.055b37dd.js"><link rel="prefetch" href="/assets/js/11.cb47558d.js"><link rel="prefetch" href="/assets/js/12.15d3ed3e.js"><link rel="prefetch" href="/assets/js/13.6e329586.js"><link rel="prefetch" href="/assets/js/14.62a949e1.js"><link rel="prefetch" href="/assets/js/15.9ffdf300.js"><link rel="prefetch" href="/assets/js/16.2ed5cb81.js"><link rel="prefetch" href="/assets/js/17.122f66f3.js"><link rel="prefetch" href="/assets/js/18.2e233786.js"><link rel="prefetch" href="/assets/js/19.03da7582.js"><link rel="prefetch" href="/assets/js/20.be0a9410.js"><link rel="prefetch" href="/assets/js/21.5a9b026b.js"><link rel="prefetch" href="/assets/js/22.ef56484c.js"><link rel="prefetch" href="/assets/js/23.1838242c.js"><link rel="prefetch" href="/assets/js/24.adb2349d.js"><link rel="prefetch" href="/assets/js/25.53bf194b.js"><link rel="prefetch" href="/assets/js/26.da11edac.js"><link rel="prefetch" href="/assets/js/27.055abe28.js"><link rel="prefetch" href="/assets/js/28.30b96214.js"><link rel="prefetch" href="/assets/js/29.642dd85c.js"><link rel="prefetch" href="/assets/js/30.c161e25a.js"><link rel="prefetch" href="/assets/js/31.70418584.js"><link rel="prefetch" href="/assets/js/32.42df5736.js"><link rel="prefetch" href="/assets/js/33.61cc431c.js"><link rel="prefetch" href="/assets/js/34.8e0f2b08.js"><link rel="prefetch" href="/assets/js/35.5706bf4c.js"><link rel="prefetch" href="/assets/js/36.23716137.js"><link rel="prefetch" href="/assets/js/37.66f5cc02.js"><link rel="prefetch" href="/assets/js/38.89522468.js"><link rel="prefetch" href="/assets/js/4.e25113ea.js"><link rel="prefetch" href="/assets/js/40.274888d1.js"><link rel="prefetch" href="/assets/js/41.3cf00f62.js"><link rel="prefetch" href="/assets/js/42.63b7dca1.js"><link rel="prefetch" href="/assets/js/43.36047f80.js"><link rel="prefetch" href="/assets/js/44.4f4b701e.js"><link rel="prefetch" href="/assets/js/45.937870cd.js"><link rel="prefetch" href="/assets/js/46.ef65c635.js"><link rel="prefetch" href="/assets/js/47.c412d652.js"><link rel="prefetch" href="/assets/js/48.fbb54b32.js"><link rel="prefetch" href="/assets/js/49.5b16345c.js"><link rel="prefetch" href="/assets/js/5.8eb8291d.js"><link rel="prefetch" href="/assets/js/50.a0be1d40.js"><link rel="prefetch" href="/assets/js/51.e27ebff0.js"><link rel="prefetch" href="/assets/js/52.0b62796f.js"><link rel="prefetch" href="/assets/js/53.e62fc06d.js"><link rel="prefetch" href="/assets/js/54.aa66fe5f.js"><link rel="prefetch" href="/assets/js/55.b2f0ed61.js"><link rel="prefetch" href="/assets/js/56.dcb45665.js"><link rel="prefetch" href="/assets/js/57.dd65379b.js"><link rel="prefetch" href="/assets/js/58.9edc1bdf.js"><link rel="prefetch" href="/assets/js/59.8dd03150.js"><link rel="prefetch" href="/assets/js/6.e458e168.js"><link rel="prefetch" href="/assets/js/60.6c86f186.js"><link rel="prefetch" href="/assets/js/61.01f441c3.js"><link rel="prefetch" href="/assets/js/62.60c7178f.js"><link rel="prefetch" href="/assets/js/63.319d3ddd.js"><link rel="prefetch" href="/assets/js/64.34cfb65a.js"><link rel="prefetch" href="/assets/js/65.ac6b2e4d.js"><link rel="prefetch" href="/assets/js/66.88e56039.js"><link rel="prefetch" href="/assets/js/67.e96fcac3.js"><link rel="prefetch" href="/assets/js/68.72aecc4e.js"><link rel="prefetch" href="/assets/js/69.986917b7.js"><link rel="prefetch" href="/assets/js/7.608d4e00.js"><link rel="prefetch" href="/assets/js/70.44ff5573.js"><link rel="prefetch" href="/assets/js/71.70214388.js"><link rel="prefetch" href="/assets/js/72.cf80097e.js"><link rel="prefetch" href="/assets/js/73.d14a4b53.js"><link rel="prefetch" href="/assets/js/74.2667bb3f.js"><link rel="prefetch" href="/assets/js/75.3a4899d6.js"><link rel="prefetch" href="/assets/js/76.03ad3c92.js"><link rel="prefetch" href="/assets/js/77.4e90cb22.js"><link rel="prefetch" href="/assets/js/78.07273229.js"><link rel="prefetch" href="/assets/js/79.6d9143dd.js"><link rel="prefetch" href="/assets/js/8.93ef3286.js"><link rel="prefetch" href="/assets/js/80.7448ce9a.js"><link rel="prefetch" href="/assets/js/81.036f985f.js"><link rel="prefetch" href="/assets/js/82.ae092e92.js"><link rel="prefetch" href="/assets/js/83.a71d8b35.js"><link rel="prefetch" href="/assets/js/84.44056e56.js"><link rel="prefetch" href="/assets/js/85.7f044c43.js"><link rel="prefetch" href="/assets/js/86.11e9bd2d.js"><link rel="prefetch" href="/assets/js/87.df3af59f.js"><link rel="prefetch" href="/assets/js/88.b372cb9b.js"><link rel="prefetch" href="/assets/js/89.b6cf0a38.js"><link rel="prefetch" href="/assets/js/90.fedd84ab.js"><link rel="prefetch" href="/assets/js/91.fe62a7ef.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1a30b371.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-19557b78><div data-v-19557b78><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-19557b78 data-v-19557b78><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-19557b78 data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>小锋哥的博客</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>shuhaiwen</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-19557b78><header class="navbar" data-v-19557b78><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/github.svg" alt="小锋哥的博客" class="logo"> <span class="site-name">小锋哥的博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/C++11/" class="nav-link"><i class="iconfont undefined"></i>
+  C++11
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++17/" class="nav-link"><i class="iconfont undefined"></i>
+  C++17
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++系统级工具函数/" class="nav-link"><i class="iconfont undefined"></i>
+  C++系统级工具函数
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++/" class="nav-link"><i class="iconfont undefined"></i>
+  C++
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++20/" class="nav-link"><i class="iconfont undefined"></i>
+  C++20
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Solution/" class="nav-link"><i class="iconfont undefined"></i>
+  Solution
+</a></li><li class="dropdown-item"><!----> <a href="/categories/版本控制/" class="nav-link"><i class="iconfont undefined"></i>
+  版本控制
+</a></li><li class="dropdown-item"><!----> <a href="/categories/GO/" class="nav-link"><i class="iconfont undefined"></i>
+  GO
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端/" class="nav-link"><i class="iconfont undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/CMake/" class="nav-link"><i class="iconfont undefined"></i>
+  CMake
+</a></li><li class="dropdown-item"><!----> <a href="/categories/TypeScript/" class="nav-link"><i class="iconfont undefined"></i>
+  TypeScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/javaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  javaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nosql/" class="nav-link"><i class="iconfont undefined"></i>
+  Nosql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Sql/" class="nav-link"><i class="iconfont undefined"></i>
+  Sql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Cmd/" class="nav-link"><i class="iconfont undefined"></i>
+  Cmd
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Kit/" class="nav-link"><i class="iconfont undefined"></i>
+  Kit
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="iconfont undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/编辑器/" class="nav-link"><i class="iconfont undefined"></i>
+  编辑器
+</a></li><li class="dropdown-item"><!----> <a href="/categories/WebSite/" class="nav-link"><i class="iconfont undefined"></i>
+  WebSite
+</a></li><li class="dropdown-item"><!----> <a href="/categories/通用/" class="nav-link"><i class="iconfont undefined"></i>
+  通用
+</a></li><li class="dropdown-item"><!----> <a href="/categories/系统/" class="nav-link"><i class="iconfont undefined"></i>
+  系统
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pages/" class="nav-link"><i class="iconfont undefined"></i>
+  教程
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><a href="https://github.com/shuhaiwen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-19557b78></div> <aside class="sidebar" data-v-19557b78><div class="personal-info-wrapper" data-v-b038cec6><img src="/github.svg" alt="author-avatar" class="personal-img" data-v-b038cec6> <h3 class="name" data-v-b038cec6>
+    shuhaiwen
+  </h3> <div class="num" data-v-b038cec6><div data-v-b038cec6><h3 data-v-b038cec6>76</h3> <h6 data-v-b038cec6>Article</h6></div> <div data-v-b038cec6><h3 data-v-b038cec6>81</h3> <h6 data-v-b038cec6>Tag</h6></div></div> <hr data-v-b038cec6></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/C++11/" class="nav-link"><i class="iconfont undefined"></i>
+  C++11
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++17/" class="nav-link"><i class="iconfont undefined"></i>
+  C++17
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++系统级工具函数/" class="nav-link"><i class="iconfont undefined"></i>
+  C++系统级工具函数
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++/" class="nav-link"><i class="iconfont undefined"></i>
+  C++
+</a></li><li class="dropdown-item"><!----> <a href="/categories/C++20/" class="nav-link"><i class="iconfont undefined"></i>
+  C++20
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Solution/" class="nav-link"><i class="iconfont undefined"></i>
+  Solution
+</a></li><li class="dropdown-item"><!----> <a href="/categories/版本控制/" class="nav-link"><i class="iconfont undefined"></i>
+  版本控制
+</a></li><li class="dropdown-item"><!----> <a href="/categories/GO/" class="nav-link"><i class="iconfont undefined"></i>
+  GO
+</a></li><li class="dropdown-item"><!----> <a href="/categories/前端/" class="nav-link"><i class="iconfont undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/CMake/" class="nav-link"><i class="iconfont undefined"></i>
+  CMake
+</a></li><li class="dropdown-item"><!----> <a href="/categories/TypeScript/" class="nav-link"><i class="iconfont undefined"></i>
+  TypeScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/javaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  javaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nosql/" class="nav-link"><i class="iconfont undefined"></i>
+  Nosql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Sql/" class="nav-link"><i class="iconfont undefined"></i>
+  Sql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Cmd/" class="nav-link"><i class="iconfont undefined"></i>
+  Cmd
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Kit/" class="nav-link"><i class="iconfont undefined"></i>
+  Kit
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="iconfont undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/编辑器/" class="nav-link"><i class="iconfont undefined"></i>
+  编辑器
+</a></li><li class="dropdown-item"><!----> <a href="/categories/WebSite/" class="nav-link"><i class="iconfont undefined"></i>
+  WebSite
+</a></li><li class="dropdown-item"><!----> <a href="/categories/通用/" class="nav-link"><i class="iconfont undefined"></i>
+  通用
+</a></li><li class="dropdown-item"><!----> <a href="/categories/系统/" class="nav-link"><i class="iconfont undefined"></i>
+  系统
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/pages/" class="nav-link"><i class="iconfont undefined"></i>
+  教程
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><a href="https://github.com/shuhaiwen" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>功能函数库</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>shuhaiwen</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-19557b78><main class="page"><div class="page-title" style="display:none;"><h1>功能函数库</h1> <hr> <div data-v-484a899e><i class="iconfont reco-account" data-v-484a899e><span data-v-484a899e>shuhaiwen</span></i> <i class="iconfont reco-date" data-v-484a899e><span data-v-484a899e>2020-08-31</span></i> <!----> <i class="iconfont reco-tag tags" data-v-484a899e><span class="tag-item" data-v-484a899e>
+      功能函数库
+    </span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><h1 id="功能函数库"><a href="#功能函数库" class="header-anchor">#</a> 功能函数库</h1> <h2 id="获取lacale集"><a href="#获取lacale集" class="header-anchor">#</a> 获取lacale集</h2> <div class="language-c++ line-numbers-mode"><pre class="language-text"><code>#include&lt;Windows.h&gt;
+#include&lt;string&gt;
+using std::wstring;
+using std::string;
+#ifdef UNICODE
+typedef wstring tstring;
+#else
+typedef string tstring;
+#endif // UNICODE
+
+
+typedef std::vector&lt;tstring&gt; tLocales;
+std::vector&lt;tstring&gt; g_locales;
+
+BOOL CALLBACK MyLocaleEnumProc(LPTSTR szLocaleString)
+{
+    g_locales.push_back(szLocaleString);
+    return TRUE;
+}
+
+//LCID码转语言和国家全称(English_United States.1252)
+tstring&amp; LCID2NLS(LCID lcid, tstring&amp; bstrRetBuf)
+{
+    TCHAR arcBuf[128];
+
+    memset(arcBuf, 0, sizeof(arcBuf));
+
+    GetLocaleInfo(lcid, LOCALE_SENGLANGUAGE, arcBuf, 127);// English name of language, eg &quot;German&quot;
+    bstrRetBuf = arcBuf;
+    memset(arcBuf, 0, sizeof(arcBuf));
+    //Loading the English name for the country/region
+    GetLocaleInfo(lcid, LOCALE_SENGCOUNTRY, arcBuf, 127);// English name of country/region, eg &quot;Germany&quot;
+    if (*arcBuf)
+    {
+        bstrRetBuf += TEXT(&quot;_&quot;);
+        bstrRetBuf += arcBuf;
+    }
+    //Loading the code page
+    memset(arcBuf, 0, sizeof(arcBuf));
+    if ((GetLocaleInfo(lcid, LOCALE_IDEFAULTANSICODEPAGE, arcBuf, 127)
+        || GetLocaleInfo(lcid, LOCALE_IDEFAULTCODEPAGE, arcBuf, 127))
+        &amp;&amp; *arcBuf)
+    {
+        bstrRetBuf += TEXT(&quot;.&quot;);
+        bstrRetBuf += arcBuf;
+    }
+
+    return bstrRetBuf;
+}
+
+//LCID码转语言和国家缩写（en_US）
+tstring&amp; LCID2NLSAbbr(LCID lcid, tstring&amp; bstrRetBuf)
+{
+    TCHAR arcBuf[128];
+
+    memset(arcBuf, 0, sizeof(arcBuf));
+
+    GetLocaleInfo(lcid, LOCALE_SISO639LANGNAME, arcBuf, 127);// ISO abbreviated language name, eg &quot;en&quot;
+    bstrRetBuf = arcBuf;
+    memset(arcBuf, 0, sizeof(arcBuf));
+    //Loading the English name for the country/region
+    GetLocaleInfo(lcid, LOCALE_SISO3166CTRYNAME, arcBuf, 127); // ISO abbreviated country/region name, eg &quot;US&quot;
+    if (*arcBuf)
+    {
+        bstrRetBuf += TEXT(&quot;_&quot;);
+        bstrRetBuf += arcBuf;
+    }
+
+    return bstrRetBuf;
+}
+
+std::vector&lt;tstring&gt; GetAllLocales(bool isAbbr=true)
+{
+    EnumSystemLocales(&amp;MyLocaleEnumProc, LCID_INSTALLED);
+    std::vector&lt;tstring&gt; vNLS,vNLSAbbr;
+    tstring ts;
+
+    for (tLocales::const_iterator i = g_locales.begin(); i != g_locales.end(); i++)
+    {
+        if (isAbbr) {//en_US
+            LCID2NLSAbbr(std::stoul(i-&gt;c_str(), nullptr, 16), ts);
+            vNLSAbbr.emplace_back(ts);         
+        }
+        else {//English_United States.1252
+            LCID2NLS(std::stoul(i-&gt;c_str(), nullptr, 16), ts);
+            vNLS.emplace_back(ts);            
+        }    
+    }
+    if (isAbbr) {
+        return vNLSAbbr;
+    }
+    else {
+        return vNLS;
+    }
+}
+int main() {
+    //获取缩写locale集 en_US
+    std::vector&lt;tstring&gt; vstrAbbr= GetAllLocales();
+    //获取全称locale集 (English_United States.1252)
+    std::vector&lt;tstring&gt; vstr = GetAllLocales(false);
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br></div></div></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">12/1/2020, 5:44:48 PM</span></div></footer> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-44bd5a18 data-v-44bd5a18><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-44bd5a18><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-44bd5a18></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-44bd5a18></path></svg></div><div class="kanbanniang" data-v-02b09ab5><div class="banniang-container" style="display:;" data-v-02b09ab5><div class="messageBox" style="position:fixed;right:110px;bottom:370px;display:none;" data-v-02b09ab5>
+      欢迎来到 小锋哥的博客
+    </div> <div class="operation" style="bottom:60px;right:80px;display:;" data-v-02b09ab5><i class="kbnfont kbn-ban-home ban-home" data-v-02b09ab5></i> <i class="kbnfont kbn-ban-message message" data-v-02b09ab5></i> <i class="kbnfont kbn-ban-close close" data-v-02b09ab5></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-02b09ab5><i class="kbnfont kbn-ban-info info" data-v-02b09ab5></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:;" data-v-02b09ab5></i></div> <canvas id="banniang" width="200" height="470" class="live2d" style="position:fixed;right:110px;bottom:50px;opacity:0.9;" data-v-02b09ab5></canvas></div> <div class="showBanNiang" style="display:none;" data-v-02b09ab5>
+    看板娘
+  </div></div><div class="reco-bgm-panel" data-v-1b3639fe><audio id="bgm" src="1.flac" data-v-1b3639fe></audio> <div class="reco-float-box" style="bottom:200px;z-index:999999;display:none;" data-v-1b3639fe data-v-2f8b2020 data-v-1b3639fe><img src="/1.jpg" data-v-1b3639fe></div> <div class="reco-bgm-box" style="left:10px;bottom:10px;z-index:999999;" data-v-1b3639fe data-v-2f8b2020 data-v-1b3639fe><div class="reco-bgm-cover" style="background-image:url(/1.jpg);" data-v-1b3639fe><div class="mini-operation" style="display:none;" data-v-1b3639fe><i class="reco-bgm reco-bgm-pause" style="display:none;" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-play" style="display:none;" data-v-1b3639fe></i></div> <div class="falut-message" style="display:none;" data-v-1b3639fe>
+          播放失败
+        </div></div> <div class="reco-bgm-info" data-v-1b3639fe data-v-2f8b2020 data-v-1b3639fe><div class="info-box" data-v-1b3639fe><i class="reco-bgm reco-bgm-music music" data-v-1b3639fe></i>281公里</div> <div class="info-box" data-v-1b3639fe><i class="reco-bgm reco-bgm-artist" data-v-1b3639fe></i>谢霆锋</div> <div class="reco-bgm-progress" data-v-1b3639fe><div class="progress-bar" data-v-1b3639fe><div class="bar" data-v-1b3639fe></div></div></div> <div class="reco-bgm-operation" data-v-1b3639fe><i class="reco-bgm reco-bgm-last last" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-pause pause" style="display:none;" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-play play" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-next next" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-volume1 volume" data-v-1b3639fe></i> <i class="reco-bgm reco-bgm-mute mute" style="display:none;" data-v-1b3639fe></i> <div class="volume-bar" data-v-1b3639fe><div class="bar" data-v-1b3639fe></div></div></div></div> <div class="reco-bgm-left-box" data-v-1b3639fe data-v-2f8b2020 data-v-1b3639fe><i class="reco-bgm reco-bgm-left" data-v-1b3639fe></i></div></div></div><!----></div></div>
+    <script src="/assets/js/app.c15515da.js" defer></script><script src="/assets/js/3.81990b42.js" defer></script><script src="/assets/js/1.4cfcde8c.js" defer></script><script src="/assets/js/39.79f4234f.js" defer></script><script src="/assets/js/9.65de6e13.js" defer></script>
+  </body>
+</html>
